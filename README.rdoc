@@ -1,8 +1,8 @@
 = Simple Mailer
 
-It was designed as an alternative of Mailchimp/Mandrill, and the main goal is sending transactional emails and supporting the communication platform for the rails girls event.
+It was designed as an alternative of Mailchimp/Mandrill, and the main goal is sending transactional emails and supporting the communication platform for some IEEE conferences in SSO.
 
-== Assumptions 
+== Assumptions
 
 1. You need to install mongoDB, it works with mongoDB 3
 
@@ -11,17 +11,17 @@ It was designed as an alternative of Mailchimp/Mandrill, and the main goal is se
 == Installation
 
     cp config/email_provider.yml.example email_provider.yml
-    
+
     cp config/mongoid.yml.example config/mongoid.yml
-    
+
     bundle install
-    
+
     rake db:seed
-    
+
     rails server
 
 == Configuration
- 
+
 For sending emails, you need to configure your smtp credentials, you can do that using the config/email_provider.yml file, after that you need to restart your server
 
 
