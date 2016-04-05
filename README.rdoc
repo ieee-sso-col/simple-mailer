@@ -10,7 +10,7 @@ It was designed as an alternative of Mailchimp/Mandrill, and the main goal is se
 
 == Installation
 
-    cp config/email_provider.yml.example email_provider.yml
+    cp config/email_provider.yml.example config/email_provider.yml
 
     cp config/mongoid.yml.example config/mongoid.yml
 
